@@ -1,7 +1,7 @@
 body{
 	margin:0px;
-	position: relative;
-}
+/*	position: relative;
+*/}
 
 header{
 	background-color: #F2F7FA;
@@ -11,12 +11,31 @@ header{
 ul{
 	padding-left: 0px;
 	margin: 0px;
-
 	padding-top: 10px;
 }
 
+h2{
+	font-family: Georgia, Times;
+	font-size: 30px;
+	font-weight: bold;
+	margin:10px;
+}
+
+h3{
+	font-family: Georgia, Times;
+	font-size: 18px;
+
+}
+
+h3.white{
+	color: white;
+
+}
+
+
+
 .wrapper{
-	width: 1200px;
+	width: 1204px;
 	margin:auto;
 }
 
@@ -70,17 +89,163 @@ ul{
 	color: #AE7301;
 }
 
-
 .nav_menu{
 	padding-bottom: 10px;
 	background-color: #DDEAF2;
+	border-bottom: 3px double black;
 }
+
+/*.nav_menu::after {
+	border-bottom: 3px double black;
+}*/
 
 .nav_primary{
 	padding top:-10px;
 	display: inline-block;
 	margin-right: 10px;
 }
+
+.main_content_container{
+	margin-right: -10px;
+	margin-left: -10px;
+}
+
+.headline, 
+.regional{
+	display: block;
+	overflow: auto;	
+	padding-bottom: 20px;
+}
+
+
+.page_header, 
+.regional_header {
+	border-bottom: 3px double black;
+	display: block;
+	overflow: auto;
+	padding-top: 10px;
+}
+
+.top_stories{
+	float: left;
+}
+
+.weather{
+	display: inline-block;
+	float: right;
+	padding-top: 10px;
+}
+
+.headline_content{
+	display: grid;
+	grid-template-columns: 280px 280px 280px 280px;
+	gird-column-gap:20px;
+	grid-template-row:600px 600px;
+	grid-row-gap:20px;
+}
+
+
+.secondary_content{
+	height: 400px;
+	padding-top: 10px;
+	float:left;
+}
+
+
+.secondary_panel{
+	height: 400px;
+	width: 280px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+	border-right: 1px solid black;
+}
+
+.secondary_panel_last{
+	height: 400px;
+	width: 280px;
+/*	padding-top: 10px;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+
+.secondary_panel_content{
+	background-color: #E8EBEC;
+	height: 100%;
+}
+
+.secondary_panel_content3{
+	display: grid;
+	grid-template-rows: 130px 130px 120px;
+	grid-row-gap: 10px;
+}
+
+
+.panel1{
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:1;
+	grid-row-end:2;
+	background-color: #5798D5;
+	padding-left: 10px;
+}
+
+.panel2{
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:2;
+	grid-row-end:3;
+	background-color: #E8EBEC;
+	padding-left: 10px;
+
+}
+
+.panel3{
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:3;
+	grid-row-end:4;
+	background-color: #E8EBEC;
+	padding-left: 10px;
+}
+
+
+
+.secondary_panel_image {
+	background-image: url(../images/bus.jpg);
+	background-repeat: no-repeat;
+	background-size: 280px;
+	height: 180px;
+}
+
+.more_content{
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.secondary_panel_content_last{
+	background-color: #56C8CE;
+	height: 100%;
+}
+
+.secondary_panel_copy{
+	padding:0px 10px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
