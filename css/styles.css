@@ -1,9 +1,18 @@
 body{
 	margin:0px;
+	position: relative;
 }
 
 header{
 	background-color: #F2F7FA;
+
+}
+
+ul{
+	padding-left: 0px;
+	margin: 0px;
+
+	padding-top: 10px;
 }
 
 .wrapper{
@@ -15,10 +24,10 @@ header{
 .navheader{
 	padding-top: 10px;
 	padding-bottom: 40px;
+	height: 30px;
 }
 
-.global_link{
-	display: inline;
+.global_link_block{
 	float: left;
 	padding: 10px;
 	background-color: #DDEAF2;
@@ -26,33 +35,32 @@ header{
 }
 
 
-.global_link_menu_left{
-	display: inline-block;
-	float:left;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	width: 50%
+.global_link_left{
+	float: left;
+	padding-right: 10px;
+	margin: 10px;
+	border-right: 1px solid black;
 }
 
-.global_link_menu_right{
-	display: inline;
-	padding-top: 10px;
-	padding-bottom: 10px;
+.global_link_right{
 	float:right;
 	padding-right: 10px;
 }
 
-
-.menu{
+.menu_right{
 	display: inline-block;
+	padding: 10px;
+	margin-right: 10px;
+	border-right: 1px solid black;
 }
 
 .brandname_homelink{
-	background-image: url(http://www.straitstimes.com/sites/all/themes/custom/bootdemo/images/st-masthead--sprite.png);
+	background-image: url(../images/st-masthead--sprite.png);
 	background-repeat: no-repeat;
 	background-size: 700px;
 	top: 0px;
 	height: 60px;
+	width: 660px;
 }
 
 .awardlink{
@@ -60,6 +68,18 @@ header{
 	padding-bottom: 20px;
 	font-size: 12px;
 	color: #AE7301;
+}
+
+
+.nav_menu{
+	padding-bottom: 10px;
+	background-color: #DDEAF2;
+}
+
+.nav_primary{
+	padding top:-10px;
+	display: inline-block;
+	margin-right: 10px;
 }
 
 
